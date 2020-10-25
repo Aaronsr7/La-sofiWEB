@@ -25,6 +25,8 @@ font-family: sans-serif;}
 
 	
 header{
+	position: fixed;
+    z-index: 999;
 	width: 100%;
 	height: 50px;
 	background: #001b17;
@@ -81,7 +83,6 @@ body{
 .container-portada{
 	width: 120%;
 	height: 600px;
-	max-width: 1350px;
 	position: relative;
 	background-image: url("imagenes/porta1.jpg");
 	background-size: 100%;
